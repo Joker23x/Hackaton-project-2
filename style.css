@@ -1,0 +1,53 @@
+.App {
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(187, 187, 187);
+}
+
+.events {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    width:110px;
+    gap: 10px;
+}
+
+
+
+.delete
+{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(185, 117, 53);
+    
+    text-decoration: none;
+    cursor: pointer
+}
+.update
+{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(226, 161, 64);
+    
+    text-decoration: none;
+    cursor: pointer
+}
+
+.addHome {
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(180, 122, 34);
+    text-decoration: none;
+    cursor: pointer
+}
